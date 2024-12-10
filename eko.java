@@ -21,7 +21,6 @@ public class eko {
             treeHeightList.add(height);
             max = Math.max(max, height);
         }
-
         long left = 0, right = max;
         while (left <= right) {
             long mid = (right-left)/2+left;
