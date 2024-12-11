@@ -48,7 +48,6 @@ public class millionairemadness {
                 }
             }
         }
-
         // Modified Prim's Algorithm
         int ladder = 0;
         for (int i=0; i<M*N; ++i) taken.add(false);
